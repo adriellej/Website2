@@ -274,10 +274,11 @@ a:hover {
     align-items: center;
 }
 
-.footer-contents p {
+.footer-contents a {
     font-weight: 700;
     text-transform: uppercase;
     color: #399056;
+    text-decoration: none;
 }
 
 .footer-contents img {
