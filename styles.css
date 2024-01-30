@@ -228,6 +228,10 @@ a:hover {
     margin-left: auto;
 }
 
+.main-content3 h2 {
+    font-size: 18px;
+}
+
 .text-right {
     display: flex;
     justify-content: flex-end;
@@ -252,6 +256,39 @@ a:hover {
     font-size: 14px;
 }
 
+.form-container {
+    text-align: center;
+    background-color: #399056;
+    color: #eee;
+    padding: 15px;
+}
+
+.form-container input[type="submit"] {
+    border: 2px solid #87BD43;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: transparent;
+    color: #eee;
+}
+
+.form-content {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-content input, select {
+    width: 250px;
+    padding: 7px 10px;
+    outline: none;
+    border: 1px solid #939393;
+    border-radius: 15px;
+}
+
 .footer-container {
     background-color: #f4f4f4;
     margin-bottom: 0;
@@ -266,7 +303,7 @@ a:hover {
 .footer-contents {
     font-size: 14px;
     width: 75%;
-    margin: 15px auto;
+    margin: auto;
     border-bottom: 2px solid #399056;
     display: flex;
     justify-content: space-around;
